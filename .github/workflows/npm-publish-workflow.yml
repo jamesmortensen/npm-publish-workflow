@@ -5,6 +5,12 @@ name: Node.js Package
 
 on:
   workflow_call:
+    secrets:
+      npm_token:
+        required: true
+
+defaults:
+  timeout-minutes: 10
 
 jobs:
   build:
