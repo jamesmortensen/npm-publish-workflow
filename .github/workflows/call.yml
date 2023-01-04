@@ -4,9 +4,6 @@
 name: Call Node.js Package
 
 on:
-  #workflow_call:
-  #release:
-  #  types: [created]
   push:
 
 jobs:
